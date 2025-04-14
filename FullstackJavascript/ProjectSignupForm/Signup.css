@@ -1,0 +1,23 @@
+
+.OdinBackground {
+    background-color: #463232;
+    width: 500px;
+  }
+.container {
+    flex-direction: row;
+    display: flex;
+    height: 100vh;
+  }
+.form-container {
+    align-items: center;
+    display: flex;
+  
+}
+label {
+    display: block;
+    margin-top: 20px;
+  }
+.infos {
+    display: flex;
+    flex-direction: row;
+  }  
