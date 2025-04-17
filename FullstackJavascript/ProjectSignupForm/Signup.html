@@ -8,38 +8,62 @@
 </head>
 <body>
     <div class="container">
-        <div class="OdinBackground"></div>
-        <div class="form-container">
-            <div>
-                <h1>Sign Up</h1>
-            <form action="#" method="POST">
-                <div class="infos">
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                </div>
-                
-
-                <button type="submit">Sign Up</button>
-            </form>
+        <div class="OdinBackground">
+            <div class="OdinLogo">
+                <img src="odin-lined.png" alt="Odin Logo">
+                <p class="OdinText">ODIN</p>
             </div>
+            <div class="credits">Photo by <a href="https://www.pexels.com/@tahmetler/" class="credits-name">Tolga Ahmetler</a> on <a class="credits-name" href="https://www.pexels.com/">Pexels</a></div>
+                
+        </div>
+        <div class="form-container">.
+            <h1>This is  Project: Sign-up Form from Intermediate HTML and CSS Course on The Odin Project. 
+                <br>The form is designed to be user-friendly and visually appealing, with clear labels and input fields.
+                <br>
+                <br> The project is a great way to practice HTML and CSS skills.
+                <br>
+                <br>
+                <a class="login">Lets Go!</a>
+                <br>
+                
+                
+            </h1>
+          
+            <div class="card">
+               
+                
+                    <form action="#" method="POST">
+                        <div class="signup-form">
+                            <div class="infos">
+                                <div class="input-container">
+                                    <label for="name">First Name:</label>
+                                    <input type="text" id="name" name="name" placeholder="Some">
+        
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" placeholder="SomeName@gmail.com" required>
+        
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" name="password" placeholder="must be 8"" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="last-name">Last Name:</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Name" required>
+        
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tel" name="phone" placeholder="09XXXXXXXXX" pattern="[0-9]{11}" required>
+                                     
+        
+                                    <label for="password">Confirm Password:</label>
+                                    <input type="password" id="password" name="password" pattern="{8}" placeholder="must be 8" required>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                    <div class="already">Already have an account? <a class="login" href="">Log in</a></div>
+            </div>
+           
+            
     </div>
 </body>
 </html>

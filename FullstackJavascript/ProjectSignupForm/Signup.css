@@ -1,23 +1,139 @@
 
+body {
+    margin:
+  0;
+  }  
 .OdinBackground {
-    background-color: #463232;
-    width: 500px;
+    background-image: url("pexels-tahmetler-29292063.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    width: 1000px;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 .container {
     flex-direction: row;
     display: flex;
     height: 100vh;
   }
+.credits {
+  align-self: center;
+  margin-bottom: 0.8em;
+  color: #bbb;
+}
+.credits-name {
+    color: #dfdfdf;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+  }
 .form-container {
-    align-items: center;
+    justify-content: center;
     display: flex;
-  
+    width: 75vw;
+    background-color: #0f0f0f;
+    flex-direction: column;
 }
 label {
     display: block;
     margin-top: 20px;
+    font-size: larger;
   }
 .infos {
     display: flex;
     flex-direction: row;
   }  
+.OdinLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000071;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+img{
+    width: 7em;
+   
+}  
+.already{
+  color: #bbb;
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 1.8em;
+  margin-top: 1em;
+}
+.login, .signup{
+  color: #619177;
+}
+.OdinText{
+  font-size: 5em;
+  color: white;
+  font-family: 'Norse-Bold',sans-serif;
+}
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.signup-form {
+    /*! margin-left: 3em; */
+    box-shadow: 0 2px 10px -1px #202020;
+    z-index: 0;
+    width: inherit;
+    padding-bottom: 25px;
+  } 
+p,h1,label{
+  color: #bbb;
+}
+h1{
+  margin-left: 1em;
+  font-size: 1.6em;
+  font-weight: 500;
+  font-family:'Times New Roman', Times, serif;
+}
+
+input {
+  width: 20em;
+  height: 2.5em;
+  border-radius:5px;
+  background:#060606;
+  border-color:#19221f;
+  color: #bbb;
+}
+input{
+  margin-left: 2em;
+}
+label{
+  margin-left: 1.5em;
+}
+.card {
+    width: inherit;
+   
+  }
+input:focus {
+    outline: none;
+    border-color: #3d4e45;
+    box-shadow: 0 0 4px #65bd8e;
+  }
+button:active{
+  background: #6fac8c
+}
+button{
+  margin-top: 2em;
+    margin-left: 2em;
+    width: 10em;
+    height: 3em;
+    background-color: #3d4e45;
+    color: white;
+    border-radius: 10px;
+    padding:10px;
+    font-size: medium;
+    border-color: black;
+   border-style:solid;
+  border-width:1px;
+  box-shadow: 0 2px 10px -1px #202020
+}
