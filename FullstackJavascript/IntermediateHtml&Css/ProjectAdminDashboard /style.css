@@ -1,0 +1,75 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  display:inline-grid;
+  grid-template-areas:
+    "sidebar header header header header "
+    "sidebar content content content content"
+    "sidebar content content content content"
+    "sidebar content content content content"
+    "sidebar content content content content"
+    "sidebar content content content content";
+    
+
+}
+
+.container div {
+  padding: 15px;
+  
+  font-family: Helvetica;
+  font-weight: bold;
+  
+  
+
+  
+
+}
+
+.header {
+  background-color: #e9f8f7;
+  grid-area: header;
+ 
+}
+
+
+.sidebar {
+  background-color: #24a4f3;
+  grid-area: sidebar;
+  color: rgb(255, 255, 255);
+  grid-column: 1/6;
+  
+}
+.Name-Dashboard {
+  font-size: 1em;
+}
+.nav {
+  background-color: #642cde;
+  grid-area: nav;
+}
+
+.content {
+  background-color: #646464;
+  grid-area: content;
+}
+
+.footer {
+  background-color: #393f4d;
+  grid-area: footer;
+}
+
+.article p {
+  font-size: 50%;
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+}
+
