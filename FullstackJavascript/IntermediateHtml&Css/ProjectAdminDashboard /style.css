@@ -56,6 +56,15 @@ html {
   background-color: #642cde;
   grid-area: nav;
 }
+.Menu> div:hover {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
 
 .content {
   background-color: #cacaca;
@@ -216,13 +225,10 @@ background-color: #ffffff;
   margin: 1px;
   grid-column: 1/2;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center ;
+ justify-content: flex-start;
+}
 
-}
-.trending-items > div > img {
-  margin-right: 30px;
-}
 
 .header-contents{
 
@@ -272,9 +278,14 @@ background-color: #ffffff;
   background-color: #4d2d6300;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   grid-row: 2/4;
   grid-column: 3/4;
+}
+.SearchBar > img:hover {
+  cursor: pointer;
+  height: 31px;
+  width: 41px;
 }
 .search-input{
   width: 50%;
@@ -315,4 +326,7 @@ button{
   margin: 4px 9px;
   cursor: pointer;
   border-radius: 5px;
+}
+button:hover {
+  background-color: #5a6b70;
 }
